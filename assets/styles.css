@@ -168,6 +168,7 @@ p {
   padding: 8px 32px;
   text-transform: uppercase;
   width: fit-content;
+  cursor: pointer;
 }
 
 .btn--accent {
