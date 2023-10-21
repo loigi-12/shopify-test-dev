@@ -28,9 +28,16 @@
         "padding_top": 44,
         "padding_bottom": 36
       }
+    },
+    "cf9c7cfd-bf47-4f9b-b7cb-36f0a20e433e": {
+      "type": "hero-section",
+      "settings": {
+        "color_scheme": ""
+      }
     }
   },
   "order": [
-    "featured_collection"
+    "featured_collection",
+    "cf9c7cfd-bf47-4f9b-b7cb-36f0a20e433e"
   ]
 }
