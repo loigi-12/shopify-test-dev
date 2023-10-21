@@ -1,0 +1,46 @@
+{{ 'styles.css' | asset_url | stylesheet_tag }}
+
+<div class="hero">
+  <div class="container">
+    <div class="grid grid--1x2-8">
+      <div class="hero__image">
+        <img src="https://cdn.shopify.com/s/files/1/0569/5327/4503/files/bike.png?v=1697826075" alt="" />
+      </div>
+
+      <div class="hero__content">
+        {% comment %} <div class="bg-overlay"></div> {% endcomment %}
+        <div class="text-container">
+          <h2 class="hero__content-title">Active <span class="strong">Mobility </span><br>for a <span class="strong">healthier </span>you</h2>
+          <p>We have plenty of models for you to test ride and purchase on site.</p>
+          <p>Grab your dream bike and join the fun!</p>
+          <p>"Test rides are available both in Elmonte showroom & Florida Showroom"</p>
+
+          <div class="btn btn--accent">
+            Book a test ride  
+          </div>
+        </div>
+        <div class="img" src="https://cdn.shopify.com/s/files/1/0569/5327/4503/files/bike_woman_baby.jpg?v=1697826073" alt="bike-woman-baby-girl"></div>
+        {% comment %} <div class="image"></div> {% endcomment %}
+      </div>
+    </div>
+  </div>
+</div>
+
+{% schema %}
+    {
+      "name": "Hero Section",
+      "settings": [
+        {
+          "type": "color_scheme",
+          "id": "color_scheme",
+          "label": "t:sections.all.colors.label",
+          "default": "accent-1"
+        }
+      ],
+      "presets": [
+        {
+          "name": "Hero Section"
+        }
+      ]
+    }
+{% endschema %}
