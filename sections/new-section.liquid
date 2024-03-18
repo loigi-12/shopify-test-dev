@@ -1,4 +1,6 @@
-<img src="{{ section.settings.image | image_url}}" alt=""/>
+{% if section.settings.image %}
+  <img src="{{ section.settings.image | image_url}}" alt=""/>
+{% endif %}
 
 <h1>buffet tosca low clarinet.</h1>
 
