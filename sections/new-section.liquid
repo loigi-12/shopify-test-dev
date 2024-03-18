@@ -2,7 +2,7 @@
   <img src="{{ section.settings.image | image_url}}" alt=""/>
 {% endif %}
 
-<h1>buffet tosca low clarinet.</h1>
+<h1>{{ section.settings.title }}</h1>
 
 
 {% schema %}
@@ -13,6 +13,11 @@
         "type": "image_picker",
         "id": "image",
         "label": "Image"
+      },
+      {
+        "type": "text",
+        "id": "title",
+        "label": "Title"
       }
     ],
     "presets": [
