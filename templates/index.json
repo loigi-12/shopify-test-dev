@@ -34,10 +34,17 @@
       "settings": {
         "color_scheme": ""
       }
+    },
+    "new_section_gQY7iA": {
+      "type": "new-section",
+      "settings": {
+        "image": "shopify:\/\/shop_images\/clarinet-musical-instrument-isolated-white-background_1_4.png"
+      }
     }
   },
   "order": [
     "featured_collection",
-    "cf9c7cfd-bf47-4f9b-b7cb-36f0a20e433e"
+    "cf9c7cfd-bf47-4f9b-b7cb-36f0a20e433e",
+    "new_section_gQY7iA"
   ]
 }
