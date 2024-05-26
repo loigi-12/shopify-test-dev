@@ -2,9 +2,9 @@
 <h1>Address</h1>
   {% for address in customer.addresses %}
   <!-- address details -->
-
+<h2>Address: {{ address }}</h2>
   {% form 'customer_address', address %}
-    <h2>Address: {{ address }}</h2>
+    
   {% endform %}
 {% endfor %}
 
