@@ -337,11 +337,12 @@
   </body>
 </html>
 
+<h1>Address</h1>
   {% for address in customer.addresses %}
   <!-- address details -->
 
   {% form 'customer_address', address %}
-    <!-- form content -->
+    <h2>Address: {{ address }}</h2>
   {% endform %}
 {% endfor %}
 
