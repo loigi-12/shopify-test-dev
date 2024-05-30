@@ -41,30 +41,11 @@
         "image": "shopify:\/\/shop_images\/clarinet-musical-instrument-isolated-white-background_1_4.png",
         "title": "buffet tosca low clarinet."
       }
-    },
-    "1717062099cdad1c06": {
-      "type": "apps",
-      "blocks": {
-        "validate_email_star_rating_8qLJWb": {
-          "type": "shopify:\/\/apps\/validate-email\/blocks\/star_rating\/7a4307c4-045c-43ae-a90e-8ab3a869ae23",
-          "settings": {
-            "product": "",
-            "colour": "#ff0000"
-          }
-        }
-      },
-      "block_order": [
-        "validate_email_star_rating_8qLJWb"
-      ],
-      "settings": {
-        "include_margins": true
-      }
     }
   },
   "order": [
     "featured_collection",
     "cf9c7cfd-bf47-4f9b-b7cb-36f0a20e433e",
-    "new_section_gQY7iA",
-    "1717062099cdad1c06"
+    "new_section_gQY7iA"
   ]
 }
