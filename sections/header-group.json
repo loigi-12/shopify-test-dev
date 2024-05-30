@@ -50,7 +50,7 @@
         "validate_email_star_rating_dXnhGx": {
           "type": "shopify:\/\/apps\/validate-email\/blocks\/star_rating\/7a4307c4-045c-43ae-a90e-8ab3a869ae23",
           "settings": {
-            "product": "",
+            "product": "t-shirt",
             "colour": "#ff0000"
           }
         }
