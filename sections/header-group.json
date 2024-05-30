@@ -43,29 +43,10 @@
         "padding_top": 20,
         "padding_bottom": 20
       }
-    },
-    "1717062462ada0bdf2": {
-      "type": "apps",
-      "blocks": {
-        "validate_email_star_rating_dXnhGx": {
-          "type": "shopify:\/\/apps\/validate-email\/blocks\/star_rating\/7a4307c4-045c-43ae-a90e-8ab3a869ae23",
-          "settings": {
-            "product": "t-shirt",
-            "colour": "#ff0000"
-          }
-        }
-      },
-      "block_order": [
-        "validate_email_star_rating_dXnhGx"
-      ],
-      "settings": {
-        "include_margins": true
-      }
     }
   },
   "order": [
     "announcement-bar",
-    "header",
-    "1717062462ada0bdf2"
+    "header"
   ]
 }
