@@ -43,10 +43,28 @@
         "padding_top": 20,
         "padding_bottom": 20
       }
+    },
+    "1717094161e3647b91": {
+      "type": "apps",
+      "blocks": {
+        "zana_nutrition_app_email_validation_htENnq": {
+          "type": "shopify:\/\/apps\/zana-nutrition-app\/blocks\/email_validation\/345f41e9-85c6-45ef-975c-d146c2e4a158",
+          "settings": {
+            "text": ""
+          }
+        }
+      },
+      "block_order": [
+        "zana_nutrition_app_email_validation_htENnq"
+      ],
+      "settings": {
+        "include_margins": true
+      }
     }
   },
   "order": [
     "announcement-bar",
-    "header"
+    "header",
+    "1717094161e3647b91"
   ]
 }
