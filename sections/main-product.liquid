@@ -1,3 +1,7 @@
+<img src="{{ product.variants[0].image.src | image_url }}"/>
+<img src="{{ product.variants[0].image[0].src | image_url }}"/>
+
+
 <section
   id="MainProduct-{{ section.id }}"
   class="page-width section-{{ section.id }}-padding"
