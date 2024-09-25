@@ -5,6 +5,7 @@
 {% for variant in product.variants %}
 
   {% if forloop.index == 1 %}
+    {{ variant.images }}
     <h3>{{ variant.title }}</h3>
     <img src="{{  variant.image | image_url}}" height="50" width="50"/>
   {% endif %}
